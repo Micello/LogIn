@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+*{
+    box-sizing: border-box;
+}
+html,body{height:100%;margin: 0;}
+.all{
+    display: flex;
+    height: 100%;
+    margin: 0 15% 0 15%;
+
+
+}
+
+.left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-image: url(naples.jpg);
+    background-size: cover
+ 
+}
+
+
+.logoimm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+    white-space: nowrap;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+
+.logo{
+    height: 200px;
+    width: auto;
+
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: rgb(246, 246, 246);
+
+    padding-top: 100px;
+   
+}
+
+.up{
+    font-size: 27px;
+    padding: 23px;
+    font-weight: bold;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 30px 40px;
+    background-color: white;
+    box-shadow: 0 10px 5px 0 #d2d2d2;
+}
+
+.forms{
+    display: flex;
+    gap: 20px;
+}
+
+.leftlogin,.rightlogin{
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+}
+.p3{
+    font-size: 30px;
+
+}
+h2{
+    margin: 0;
+    color: gray;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+  
+button {
+    font-size: 16px;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0 0;
+    
+  }
+.vai{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ostia{
+    color: rgb(37, 108, 208);
+}
